@@ -2,11 +2,21 @@
 
 This is an example AWS Lambda written in rust using Apex.
 
+## Deploying
+
+Check you have the apex role and attached policy as named in `project.json`.
+This would have been created by `apex init`.
+Also update the arn to match your account number and the role name.
+
+Then deploy as usual with `apex deploy`.
+
 ## Apex Runtimes
 
 There are two runtimes: `rust_musl` and `rust_gnu`
 
 These correspond to the two options for `libc`.
+
+See [./functions/hello/function.json](./functions/hello/function.json)
 
 ### Musl Libc
 
