@@ -56,3 +56,7 @@ You'll need the following dependencies:
  * optional yum packages: git-core
  * aws credentials or preferrably an ec2 instance role already setup
  
+## Copying
+
+Dual licensed `MIT`/`Apache-2`. See license files for details.
+
